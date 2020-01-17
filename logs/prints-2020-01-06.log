@@ -1,0 +1,8 @@
+22:56:52.160 [main] INFO  Academy.Base - validation of home page text successful
+22:56:55.945 [main] INFO  Academy.Base - driver closed for home page
+22:57:26.609 [main] INFO  Academy.Base - driver initialized
+22:57:38.734 [main] INFO  Academy.Base - login page landing successful
+22:57:47.219 [main] DEBUG Academy.Base - clicked on login button
+22:57:50.863 [main] INFO  Academy.Base - login page landing successful
+22:57:55.747 [main] DEBUG Academy.Base - clicked on login button
+22:57:56.019 [main] INFO  Academy.Base - driver closed for login page successfull

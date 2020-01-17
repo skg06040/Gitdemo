@@ -1,0 +1,7 @@
+13:31:38.046 [main] DEBUG Academy.Base - clicked on popup of home page
+13:31:38.923 [main] INFO  Academy.Base - validation of home page text successful
+13:31:38.992 [main] INFO  Academy.Base - validation of Title text successful
+13:31:41.635 [main] INFO  Academy.Base - driver closed for home page
+13:32:13.113 [main] INFO  Academy.Base - driver initialized
+13:32:34.670 [main] INFO  Academy.Base - login page landing successful
+13:32:41.654 [main] DEBUG Academy.Base - clicked on login button

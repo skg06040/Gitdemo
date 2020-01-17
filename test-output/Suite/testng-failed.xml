@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="Academy.Listeners"/>
+  </listeners>
+  <test name="Test_HomePageItems">
+    <classes>
+      <class name="Academy.LandingPage_Test"/>
+    </classes>
+  </test> <!-- Test_HomePageItems -->
+  <test name="Test_LoginPageItems">
+    <classes>
+      <class name="Academy.LoginPage_Test"/>
+    </classes>
+  </test> <!-- Test_LoginPageItems -->
+  <test name="Test_appTest_soloForDemo">
+    <classes>
+      <class name="Academy.AppTest"/>
+    </classes>
+  </test> <!-- Test_appTest_soloForDemo -->
+  <test name="Test_Landing_Negative">
+    <classes>
+      <class name="Academy.Landing_Page_Negative"/>
+    </classes>
+  </test> <!-- Test_Landing_Negative -->
+  <test name="Test_Landing_Negative(failed)">
+    <classes>
+      <class name="Academy.LoginPage_Test">
+        <methods>
+          <include name="intialize"/>
+          <include name="Session_Close"/>
+        </methods>
+      </class> <!-- Academy.LoginPage_Test -->
+      <class name="Academy.LandingPage_Test">
+        <methods>
+          <include name="intialize"/>
+          <include name="Session_Close"/>
+        </methods>
+      </class> <!-- Academy.LandingPage_Test -->
+      <class name="Academy.Landing_Page_Negative">
+        <methods>
+          <include name="Navigate_Home_negtive"/>
+          <include name="intialize"/>
+          <include name="Session_Close"/>
+        </methods>
+      </class> <!-- Academy.Landing_Page_Negative -->
+    </classes>
+  </test> <!-- Test_Landing_Negative(failed) -->
+</suite> <!-- Failed suite [Suite] -->

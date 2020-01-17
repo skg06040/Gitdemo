@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+   <suite name="Suite">
+   
+   <listeners>
+    <listener class-name="Academy.Listeners"/>
+    <listener class-name="resources.ExtentReporterNG"/>
+   </listeners>
+   
+  <test name="Test_HomePageItems">
+    <classes>
+      <class name="Academy.LandingPage_Test"/>
+    </classes>
+      </test> 
+    <test name="Test_LoginPageItems">
+    <classes>
+      <class name="Academy.LoginPage_Test"/>
+    </classes>
+      </test> 
+    <test name="Test_appTest_soloForDemo">
+    <classes>
+      <class name="Academy.AppTest"/>
+    </classes>
+  </test>
+  <test name="Test_Negative">
+    <classes>
+      <class name="Academy.Landing_Page_Negative"/>
+    </classes>
+  </test>
+    
+  
+  <!-- Test -->
+</suite> <!-- Suite -->

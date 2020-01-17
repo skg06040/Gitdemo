@@ -1,0 +1,5 @@
+PageObjects\LoginPage.class
+PageObjects\LandingPage.class
+Academy\Base.class
+Academy\App.class
+resources\ExtentReporterNG.class

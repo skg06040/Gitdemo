@@ -1,0 +1,6 @@
+13:32:44.990 [main] INFO  Academy.Base - login page landing successful
+13:32:50.186 [main] DEBUG Academy.Base - clicked on login button
+13:32:50.380 [main] INFO  Academy.Base - driver closed for login page successfull
+13:33:25.543 [main] INFO  Academy.Base - home page url hit done for negative
+13:33:26.548 [main] DEBUG Academy.Base - clicked on popup of home page
+13:33:28.237 [main] INFO  Academy.Base - driver closed for home page
